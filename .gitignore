@@ -2,6 +2,7 @@
 *.pyo
 build/
 setuptools*
+venv/
 *.egg-info/
 *EGG-INFO*
 .idea/
