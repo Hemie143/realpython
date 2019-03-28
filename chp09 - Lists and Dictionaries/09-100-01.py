@@ -38,7 +38,7 @@ universities = [
 
 
 population_list, fees_list = enrollment_stats(universities)
-print('*'*20)
+print('*'*30)
 print('Total students:   {}'.format(sum(population_list)))
 print('Total tuition:  $ {}'.format(sum(fees_list)))
 print()
@@ -47,4 +47,4 @@ print('Student median:   {}'.format(median(population_list)))
 print()
 print('Tuition mean:   $ {}'.format(int(mean(fees_list))))
 print('Tuition median: $ {}'.format(median(fees_list)))
-print('*'*20)
+print('*'*30)
